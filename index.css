@@ -13,21 +13,26 @@ font-family: sans-serif;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    text-align: center;
 }
 .user{
     top: -5%;
-    left: 70%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    position: absolute;  
+    position: absolute;
+    text-align: center;  
 }
 .user-box{
-    top: 45%;
+    top: 50%;
     left: 40%;
+    right: -65px;
     transform: translate(-50%, -50%);
     position: absolute;  
+    text-align: center;
 }
 .user-box h1{
     color: #fff;
+    font-size: 30px;
     font-weight: bold;
     position: center;
     
@@ -36,10 +41,35 @@ font-family: sans-serif;
 .user-box p{
     color: #fff;
     font-size: 18px;
-    fo
-    position: left;
+    padding-right: 10px;
 
 }
+@media (max-width: 1197px)
+{
+    .user-box
+    {
+        padding-top: 70px;
+    }
+    .user-box
+    {
+        left: 450px;
+    }
+    .user-box h1
+    {
+        font-size: 45px;
+        padding-top: -25%;
+        padding-bottom: 0px;
+    }
+    .user-box p
+    {
+        display: block;
+        margin-left: 0;
+        font-size: 30px;
+    }
+}
+
+
+
 
 
 
